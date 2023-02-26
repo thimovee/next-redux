@@ -2,29 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.parent .hidden-child{
+.parent .hidden-child {
     visibility: hidden;
 }
 
-.parent:hover .hidden-child{
+.parent:hover .hidden-child {
     visibility: visible;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-input:focus::placeholder{
-    color:#303233;
+
+input:focus::placeholder {
+    color: #303233;
 }
 
-:root{
-  --accent-color:#7e22ce;
-  --accent-color0:#b91c1c;
-  --accent-color1:#15803d;
-  --accent-color2:#4338ca;
+:root {
+    --accent-color: #7e22ce;
+    --accent-color0: #b91c1c;
+    --accent-color1: #15803d;
+    --accent-color2: #4338ca;
 }
-.z1{
+
+.z1 {
     z-index: 1;
 }
-.z2{
+
+.z2 {
     z-index: 99999;
 }
