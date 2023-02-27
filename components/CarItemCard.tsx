@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import {
   decrement,
-  increment,
+  increment, remove
 } from "store/features/cartSlice";
 import { useAppDispatch } from "store/store";
 import QtyBtn from "./QtyBtn";
@@ -30,21 +30,13 @@ const CartItemCard = ({ cartItem }: Props) => {
         onDecrease={() =>
           dispatch(decrement(cartItem.product))}
         onIncrease={() =>
-          dispatch(increment(cartItem.product))}/>
+          dispatch(increment(cartItem.product))}
+        onRemove={() =>
+          dispatch(remove(cartItem.product))}
+          />
       </div>
-      <button className="bg-[#303233] w-14 h-14 text-white rounded-full absolute translate-x-[2075%] -translate-y-[35%]"><svg className="text-2xl mx-auto" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32 464a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V128H32zm272-256a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zm-96 0a16 16 0 0 1 32 0v224a16 16 0 0 1-32 0zM432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"></path></svg></button>
     </div>
-    
-    
-
-{/*        
-{cartItem.product.name}
-{cartItem.product.price}
-{cartItem.qty}
-cartItem.product
-*/}
     </>
-
   );
 };
 export default CartItemCard;

@@ -43,6 +43,12 @@ import {
           }
         }
       },
+
+      remove: (state, action: PayloadAction<Product>) => {
+        state.cartItems = state.cartItems.filter(
+          (el) => el.product.id !== action.payload.id
+        );
+      }
     },
   });
   
@@ -74,7 +80,7 @@ import {
       )
   );
   
-  export const { increment, decrement } = cartSlice.actions;
+  export const { increment, decrement, remove } = cartSlice.actions;
   
   export default cartSlice.reducer;
   

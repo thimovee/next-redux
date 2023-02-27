@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
                 <div className="h-[520px] w-[320px] flex mr-[75px] flex-col">
                     <div className="text-[#453F3F] font-semibold text-[16px]">TRENDING</div>
                     <div className="font-semibold text-[70px] text-white leading-[70px] mb-[60px]">Wireless collection</div>
-                    <button className="bg-[color:var(--accent-color)] w-[225px] h-[75px] rounded-[50px] mb-[125px]"><span className="font-semibold text-xl text-white">SHOP NOW</span></button>
+                    <button className="bg-purple-900 w-[225px] h-[75px] rounded-[50px] mb-[125px]"><span className="font-semibold text-xl text-white">SHOP NOW</span></button>
                     <div className="flex">
                         <button style={{ background: index == 0 ? "var(--accent-color)" : "#453F3F" }} className="h-1 w-[50px] mr-[15px]" onClick={() => setIndex(0)}></button>
                         <button style={{ background: index == 1 ? "var(--accent-color)" : "#453F3F" }} className="h-1 w-[50px] mr-[15px]" onClick={() => setIndex(1)}></button>

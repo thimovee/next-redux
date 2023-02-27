@@ -1,7 +1,7 @@
 "use client"
 import ProductCard from "components/ProductCard";
 import { dummyProducts } from "dummydata";
-import Hero from "app/Hero";
+import Hero from "components/Hero";
 import { Product } from "interfaces";
 import React, { useState, useEffect } from 'react';
 import Link from "next/link";

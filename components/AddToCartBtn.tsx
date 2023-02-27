@@ -19,7 +19,7 @@ const AddToCartBtn = (props: Props) => {
       <div className="flex justify-center">
         <button
           onClick={() => dispatch(increment(props.product))}
-          className="z2 hidden-child text-white w-[190px] h-[60px] bg-[color:var(--accent-color)] rounded-full text-xl font-semibold absolute -translate-y-[155%]"
+          className="hidden-child text-white w-[190px] h-[60px] bg-[color:var(--accent-color)] rounded-full text-xl font-semibold absolute -translate-y-[155%]"
         >
           Add To Cart
         </button>

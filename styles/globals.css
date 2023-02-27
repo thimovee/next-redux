@@ -8,6 +8,7 @@
 
 .parent:hover .hidden-child {
     visibility: visible;
+    z-index: 20000;
 }
 
 html {
