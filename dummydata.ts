@@ -42,7 +42,7 @@ export const dummyProducts: Product[] = [
     brand: "Microsoft",
   },
   {
-    id: 0,
+    id: 5,
     name: "Surface",
     price: 1200,
     imagePath: "https://i.ibb.co/txhwSns/headphones-a-4.webp",
@@ -50,7 +50,7 @@ export const dummyProducts: Product[] = [
     brand: "Microsoft",
   },
   {
-    id: 1,
+    id: 6,
     name: "MacBook Air",
     price: 999,
     imagePath: "https://i.ibb.co/CnzYPw1/headphones-c-1.webp",
@@ -58,7 +58,7 @@ export const dummyProducts: Product[] = [
     brand: "Apple",
   },
   {
-    id: 2,
+    id: 7,
     name: "Cell Phone",
     price: 800,
     imagePath: "https://i.ibb.co/D7NZDPk/headphones-a-1.webp",
@@ -66,7 +66,7 @@ export const dummyProducts: Product[] = [
     brand: "Samsung",
   },
   {
-    id: 3,
+    id: 8,
     name: "Keyboard",
     price: 50,
     imagePath: "https://i.ibb.co/KzwMh9w/watch-3.webp",
@@ -74,7 +74,7 @@ export const dummyProducts: Product[] = [
     brand: "Microsoft",
   },
   {
-    id: 4,
+    id: 9,
     name: "Mouse",
     price: 10,
     imagePath: "https://i.ibb.co/CQN3cCp/watch-2.webp",
@@ -82,7 +82,7 @@ export const dummyProducts: Product[] = [
     brand: "Microsoft",
   },
   {
-    id: 0,
+    id: 10,
     name: "Surface",
     price: 1200,
     imagePath: "https://i.ibb.co/txhwSns/headphones-a-4.webp",
@@ -90,7 +90,7 @@ export const dummyProducts: Product[] = [
     brand: "Microsoft",
   },
   {
-    id: 1,
+    id: 11,
     name: "MacBook Air",
     price: 999,
     imagePath: "https://i.ibb.co/CnzYPw1/headphones-c-1.webp",
@@ -98,7 +98,7 @@ export const dummyProducts: Product[] = [
     brand: "Apple",
   },
   {
-    id: 2,
+    id: 12,
     name: "Cell Phone",
     price: 800,
     imagePath: "https://i.ibb.co/D7NZDPk/headphones-a-1.webp",
@@ -106,7 +106,7 @@ export const dummyProducts: Product[] = [
     brand: "Samsung",
   },
   {
-    id: 3,
+    id: 13,
     name: "Keyboard",
     price: 50,
     imagePath: "https://i.ibb.co/KzwMh9w/watch-3.webp",
@@ -114,7 +114,7 @@ export const dummyProducts: Product[] = [
     brand: "Microsoft",
   },
   {
-    id: 4,
+    id: 14,
     name: "Mouse",
     price: 10,
     imagePath: "https://i.ibb.co/CQN3cCp/watch-2.webp",

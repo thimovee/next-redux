@@ -4,7 +4,6 @@ import { dummyProducts } from "dummydata";
 import Hero from "components/Hero";
 import { Product } from "interfaces";
 import React, { useState, useEffect } from 'react';
-import Link from "next/link";
 interface Props {
   product: Product;
 }
