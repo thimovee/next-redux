@@ -9,7 +9,7 @@ interface Props {
 const ProductCard = (props: Props) => {
   return (
     //Dynamic route
-    <Link href={`/${props.product.id}`}>
+    <Link href={`/products/${props.product.id}`}>
     <div className="flex h-[475px] w-[325px] flex-col mr-[25px] parent mb-10 transition duration-700 ease-in-out">
       <div className="w-full h-[400px] bg-[#101010] rounded-[15px] flex">
         <Image
