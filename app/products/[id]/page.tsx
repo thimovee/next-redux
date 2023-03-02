@@ -2,6 +2,8 @@ import AddToCartBtn from "@/components/AddToCartBtn";
 import { dummyProducts } from "@/dummydata";
 import { Product } from "@/interfaces";
 import Image from "next/image";
+import ProductCard from "@/components/ProductCard";
+import ProductDescription from "../ProductDescription";
 async function getProduct(id: string): Promise<Product | undefined> {
   const product = dummyProducts.find((p) => p.id.toString() === id);
   return product;
@@ -14,17 +16,16 @@ export default async function ProductPage({ params }: any) {
     return <div>Product not found</div>;
   }
   return (
-    <>
-    <div className="flex w-10/12 mx-auto mt-32 flex-col">
+    <div className="flex w-10/12 mx-auto mt-32 flex-col -mb-52">
       <div className="flex w-full ">
         <div className="flex flex-col w-[50%]">
-        <Image className="mx-auto" src={product.imagePath} alt={product.name} width={600} height={252}/>
+        <Image className="mx-auto cursor-zoom-in" src={product.imagePath} alt={product.name} width={600} height={252}/>
         <div className="flex mx-auto">
-        <svg className="text-[#a1a1a1] my-auto mr-4" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="45px" width="45px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"></path></svg>
+        <svg className="text-[#a1a1a1] my-auto mr-4 cursor-pointer" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="45px" width="45px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"></path></svg>
           <Image className="bg-[#010101] rounded-[7.5px]"src={product.imagePath} alt={product.name} width={150} height={252}/>
           <Image className="bg-[#010101] mx-4 rounded-[7.5px]"src={product.imagePath} alt={product.name} width={150} height={252}/>
           <Image className="bg-[#010101] rounded-[7.5px]"src={product.imagePath} alt={product.name} width={150} height={252}/>
-          <svg className="rotate-180 text-[#a1a1a1] ml-4 my-auto"stroke="#010101" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="45px" width="45px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"></path></svg>
+          <svg className="rotate-180 text-[#a1a1a1] ml-4 my-auto cursor-pointer"stroke="#010101" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="45px" width="45px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"></path></svg>
         </div>
         </div>
         <div className="w-[50%] flex flex-col  ml-12">
@@ -35,7 +36,7 @@ export default async function ProductPage({ params }: any) {
           <svg className="my-auto  text-orange-400" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path></svg>
           <svg className="my-auto  text-orange-400" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"></path></svg>
           <svg className="my-auto  text-orange-400" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path></svg>
-          <pre className="my-auto text-slate-200 font-semibold"> (9)</pre>
+          <pre className="my-auto text-slate-200 font-semibold">{` (${product.reviews})`}</pre>
           </div>
           <div className="text-white font-semibold text-3xl pb-8">€ {product.price}</div>
           <div className="text-white text-2xl leading-10 flex">
@@ -77,13 +78,19 @@ export default async function ProductPage({ params }: any) {
           </div>
         </div>
       </div>
-      <div className="flex w-full bg-purple-500">
-        description reviews shipping information
+      <div className="flex w-full mt-16">
+        <ProductDescription/>
       </div>
-      <div className="flex w-full bg-green-500">
-        related products
+      <div className="flex w-full mt-40 flex-col">
+        <div className="text-4xl text-white font-semibold mx-auto mb-20">Related Products</div>
+        <div className="flex w-10/12 mx-auto">
+          <div className="w-full mx-auto flex">
+        {dummyProducts.slice(0, 4).map((product) => (
+          <ProductCard product={product} key={product.id} />
+        ))}
+        </div>
+        </div>
       </div>
     </div>
-</>
   );
 }

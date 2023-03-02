@@ -5,6 +5,12 @@ export interface Product {
     imagePath: string;
     color: string;
     brand: string;
+    description: string;  
+    details: string;
+    category: string;
+    rating: number;
+    reviews: { id: number, title: string, description: string, rating: number, date:string }[];
+    isAvailable: boolean;
   }
   
   export interface CartItem {
