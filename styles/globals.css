@@ -25,11 +25,3 @@ input:focus::placeholder {
     --accent-color1: #15803d;
     --accent-color2: #4338ca;
 }
-
-.z1 {
-    z-index: 1;
-}
-
-.z2 {
-    z-index: 99999;
-}

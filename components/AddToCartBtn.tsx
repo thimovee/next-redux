@@ -16,10 +16,10 @@ const AddToCartBtn = (props: Props) => {
   );
   const dispatch = useAppDispatch();
     return (
-      <div className="flex justify-center">
+      <div className="flex justify-center relative -translate-x-[185px] translate-y-[400px] duration-700 transition ease-in">
         <button
           onClick={() => dispatch(increment(props.product))}
-          className="hidden-child text-white w-[190px] h-[60px] bg-[color:var(--accent-color)] rounded-full text-xl font-semibold absolute -translate-y-[155%]"
+          className="hover:bg-purple-800 hover:scale-110 duration-700 ease-in-out hidden-child text-white w-[190px] h-[60px] bg-[color:var(--accent-color)] rounded-full text-xl font-semibold absolute -translate-y-[155%]"
         >
           Add To Cart
         </button>

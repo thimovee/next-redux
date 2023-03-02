@@ -3,16 +3,12 @@ import CartItemCard from "@/components/CarItemCard";
 import React from "react";
 import { TotalPriceSelector } from "store/features/cartSlice";
 import { useAppSelector } from "store/store";
-import { useEffect } from "react";
 
 const CartPage = () => {
   const cartItems = useAppSelector(
     (state) => state.cart.cartItems
   );
     
-    useEffect(() => {
-      localStorage.setItem("cartItems", JSON.stringify(cartItems));
-  }, [cartItems]);  
   
   const totalPrice = useAppSelector(TotalPriceSelector);
   return (
