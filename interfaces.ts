@@ -6,7 +6,7 @@ export interface Product {
   color: string;
   brand: string;
   description: string;
-  details: string;
+  details: { id: number, detail: string}[];
   category: string;
   rating: number;
   reviews: { id: number, title: string, name: string, description: string, rating: number, date: string }[];

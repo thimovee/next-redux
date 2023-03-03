@@ -3,13 +3,46 @@ import { Product } from "interfaces";
 export const dummyProducts: Product[] = [
   {
     id: 0,
-    name: "Surface",
-    price: 1200,
+    name: "Macbook Air",
+    price: 1218.85,
     imagePath: "https://i.ibb.co/txhwSns/headphones-a-4.webp",
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -56,7 +89,40 @@ export const dummyProducts: Product[] = [
     color: "Silver",
     brand: "Apple",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -103,7 +169,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Samsung",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -150,7 +249,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -197,7 +329,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -244,7 +409,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -291,7 +489,40 @@ export const dummyProducts: Product[] = [
     color: "Silver",
     brand: "Apple",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -338,7 +569,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Samsung",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -385,7 +649,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -432,7 +729,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -479,7 +809,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -526,7 +889,40 @@ export const dummyProducts: Product[] = [
     color: "Silver",
     brand: "Apple",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -573,7 +969,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Samsung",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -620,7 +1049,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -667,7 +1129,40 @@ export const dummyProducts: Product[] = [
     color: "Black",
     brand: "Microsoft",
     description: "The MacBook Air is a sleek and stylish laptop that's perfect for people on the go. With its lightweight design and thin profile, it's easy to take with you wherever you go, whether you're heading to a coffee shop, a meeting, or a plane.",
-    details: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU Memory: 8GB or 16GB unified memoryStorage: 256GB, 512GB, 1TB, or 2TB SSDDisplay: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolutionTouch ID: Integrated Touch ID sensor for secure authentication and Apple PayKeyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangementPorts: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0Camera: 720p FaceTime HD cameraAudio: Stereo speakers with wide stereo sound, support for Dolby Atmos playback, and three-mic array with directional beamformingBattery life: Up to 15 hours of web browsing or up to 18 hours of video playbackDimensions: 11.97 x 8.36 x 0.63 inches (30.41 x 21.24 x 1.61 cm)Weight: 2.8 pounds (1.29 kg)",
+    details: [
+      {
+        id: 0,
+        detail: "Processor: Apple M1 chip with 8-core CPU and 7- or 8-core GPU",
+      },
+      {
+        id: 1,
+        detail: "Memory: 8GB or 16GB unified memory",
+      },
+      {
+        id: 2,
+        detail: "Storage: 256GB, 512GB, 1TB, or 2TB SSD",
+      },
+      {
+        id: 3,
+        detail: "Display: 13.3-inch Retina display with True Tone technology, 2560-by-1600 resolution",
+      },
+      {
+        id: 4,
+        detail: "Touch ID: Integrated Touch ID sensor for secure authentication and Apple Pay",
+      },
+      {
+        id: 5,
+        detail: "Keyboard: Backlit Magic Keyboard with 65 keys (US) or 66 keys (ISO), including four arrow keys in an inverted-T arrangement",
+      },
+      {
+        id: 6,
+        detail: "Ports: Two Thunderbolt 3 (USB-C) ports with support for charging, DisplayPort, Thunderbolt (up to 40Gb/s), and USB 3.1 Gen 2 (up to 10Gb/s)",
+      },
+      {
+        id: 7,
+        detail: "Wireless: Wi-Fi 6 (802.11ax) and Bluetooth 5.0",
+      },
+    ],
     category: "Electronics",
     rating: 4.5,
     reviews: [
@@ -675,7 +1170,7 @@ export const dummyProducts: Product[] = [
         id: 0,
         title: "Excellent product",
         name: "John Doe",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
         rating: 4.5,
         date: "2021-01-01",
       },

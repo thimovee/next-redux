@@ -5,9 +5,9 @@ import React, { useState, useEffect } from 'react'
 const Footer = () => {
     return (
         <>
-            <div className="mt-[225px]">
+            <div className="mt-[225px] z-50">
                 <svg className="-mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#111111" fillOpacity="1" d="M0,256L60,256C120,256,240,256,360,266.7C480,277,600,299,720,288C840,277,960,235,1080,218.7C1200,203,1320,213,1380,218.7L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-                <footer className="bg-[#111111] w-full h-[350px] flex justify-between text-white">
+                <footer className="z-50 bg-[#111111] w-full h-[350px] flex justify-between text-white">
                     <div className="my-auto ml-32">
                         <div className="flex flex-col">
                             <div className=" text-5xl font-bold ">LISTEN</div>
