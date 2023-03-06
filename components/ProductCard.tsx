@@ -12,17 +12,17 @@ const ProductCard = (props: Props) => {
   return (
     <>
       <Link href={`/products/${props.product.id}`} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
-        <div className="flex h-[475px] w-[325px] flex-col mr-[25px] parent mb-10 transition duration-700 ease-in-out">
-          <div className="w-full h-[400px] bg-[#101010] rounded-[15px] flex">
+        <div className="flex h-[325px] w-[230px] flex-col mr-[25px] parent mb-10 transition duration-700 ease-in-out">
+          <div className="w-full h-[400px]  bg-[#101010] rounded-[15px] flex">
             <Image
               src={props.product.imagePath}
               alt={props.product.name}
-              width={330}
+              width={230}
               height={252}
               className="mx-auto rounded-[15px] my-auto mt-2"
             />
           </div>
-          <div className="mt-4">
+          <div className="py-2 rounded-b-[15px]">
             <div className="text-white font-bold text-center text-2xl">{props.product.name}</div>
             <div className="text-[#a1a1a1] font-bold text-center text-lg">€{props.product.price}.00</div>
           </div>

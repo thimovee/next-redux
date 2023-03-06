@@ -55,7 +55,7 @@ export default async function ProductPage({ params }: any) {
             </div>
           </div>
           <div className="py-8">
-            <div className="absolute translate-x-[275px] -translate-y-[320px]">
+            <div className="absolute translate-x-[200px] -translate-y-[210px]">
               <AddToCartBtn product={product} />
             </div>
           </div>
